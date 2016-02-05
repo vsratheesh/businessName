@@ -1,0 +1,118 @@
+#space {
+  background: url("../images/london-bridge.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive; }
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent; }
+
+.navbar-inverse .navbar-brand {
+  color: #ffc056;
+  font-size: 2rem; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  color: #fff;
+  background-color: transparent; }
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: transparent; }
+
+#myCarousel {
+  text-align: center; }
+
+.carousel {
+  top: 50%; }
+
+.carousel-indicators {
+  top: 257%; }
+
+.carousel-inner h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #fff; }
+
+#intro {
+  padding: 4em 0 3em 0;
+  color: black; }
+
+h1{margin-left: 16em;
+    font-size: 2em;
+    color: rgba(70, 130, 180, 0.87);
+    font-weight: 600;}
+
+span {
+  color: black;
+  font-size: 14px;
+  font-weight: 100; }
+
+p {
+  padding: 1em 0; }
+
+#identity {
+  background-color: #ffc056; }
+
+  .what-we-are {
+    color: white;
+    padding: 3em; }
+
+  #identity .image {
+    background-image: url("../images/Full-Normal.jpg");
+    height: 100vh;
+    background-size: cover; }
+
+  #identity h3 {
+    font-size: 35px;
+    font-weight: bolder; }
+
+
+/*
+
+.pictures {
+    padding: 0;
+}
+
+
+
+.gallary {
+    list-style: none;
+    width: 100%;
+}
+
+.gallary li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.show-case {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.show-case img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+
+.show-case img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+*/

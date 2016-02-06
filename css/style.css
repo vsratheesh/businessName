@@ -36,7 +36,7 @@
 .carousel-indicators {
   top: 257%; }
 
-.carousel-inner h1 {
+.carousel-inner h1 {margin-left: 1em;
   font-size: 55px;
   font-weight: 900;
   color: #fff; }
@@ -73,6 +73,12 @@ p {
   #identity h3 {
     font-size: 35px;
     font-weight: bolder; }
+
+
+    h4{margin-left: 15em;
+    font-size: 2em;
+    color: rgba(70, 130, 180, 0.87);
+    font-weight: 600; }
 
 
 /*
@@ -116,3 +122,34 @@ p {
 }
 
 */
+
+#chat {
+  background-color: #2c3e50;
+  padding: 5em;
+}
+
+#chat img {
+  width: 10em;
+  height: 10em;
+}
+
+#chat .message {
+  background-color: #95a5a6;
+  color: #2c3e50;
+  width: 30em;
+  padding: 2em 3em;
+  border-radius: 4px;
+  position: relative;
+}
+
+#chat .message:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  border-right: 20px solid #95a5a6;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}

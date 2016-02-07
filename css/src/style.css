@@ -56,21 +56,23 @@
   #identity h3 {
     font-size: 35px;
     font-weight: bolder; }
-  #identity .what-we-are {
-    color: white;
-    padding: 3em; }
-  #identity h4 {
-    margin-left: 15em;
-    font-size: 2em;
-    color: rgba(70, 130, 180, 0.87);
-    font-weight: 600; }
-  #identity .pictures {
-    margin-right: 1px;
-    margin-left: -30px; }
-  #identity .img {
+
+#work .what-we-are {
+  color: white;
+  padding: 3em; }
+#work h4 {
+  margin-left: 15em;
+  font-size: 2em;
+  color: rgba(70, 130, 180, 0.87);
+  font-weight: 600; }
+
+#show-case .container-fluid .row {
+  margin-right: 1px;
+  margin-left: -30px; }
+  #show-case .container-fluid .row .img {
     vertical-align: middle;
     text-align: justify;
-    display: inline-block;
+    display: block;
     width: 295px;
     height: 201px; }
 
